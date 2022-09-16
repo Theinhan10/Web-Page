@@ -1,0 +1,408 @@
+body{
+    margin: 0%;
+    text-align: center;
+}
+
+
+/* The top div. The header of where my name is*/
+.top{
+    border-top: double grey 12px;
+    border-bottom: double grey 12px;
+    background-color: beige;
+    position: relative;
+    padding: 100px 0 100px 0;
+    text-align: center;
+}
+
+/* For my name head, where I have font type, color and size */
+#topName{
+    font-family: 'Combo', cursive;
+    color:grey;
+    font-size: 160px;
+    
+}
+
+/* For I am web developer header*/
+#topDescription{
+    font-family: 'Qwitcher Grypen', cursive;
+    color:black;
+    font-size: 100px;
+}
+
+/* For the intro under web develop */
+#topIntro{
+    font-family:'Qwitcher Grypen', cursive;
+    color: black;
+    font-size: 80px;
+}
+
+/*These are for my bird image in top div */
+.topImg1{
+    position:absolute;
+    top: 200px;
+    left: 200px;
+}
+
+.topImg2{
+    position:absolute;
+    top: 150px;
+    right: 300px;
+}
+
+.topImg3{
+    position: absolute;
+    bottom: 350px;
+}
+
+.topImg4{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+.whitebird{
+    position: absolute;
+    right: 200px;
+    top: 1000px;
+}
+.blackbird{
+    position: absolute;
+    left: 100px;
+    top: 1100px;
+}
+
+.helloBird{
+    position: absolute;
+    left: 500px;
+    top: 1300px;
+}
+.whitewhite{
+    position: absolute;
+    left: 200px;
+    top: 1600px;
+}
+.whitewhite2{
+    position: absolute;
+    right: 200px;
+    top: 1600px;
+}
+
+
+
+
+
+/*The middle div */
+.middle{
+    padding: 150px 0 30px 0;
+       
+}
+
+/*My image, which turn into oval*/
+.myImage{
+    border-radius: 100%;
+    border-top: double black 12px;
+    border-bottom: double black 12px;
+}
+
+/*Designing the greeting and descrition line under my image*/
+#greeting{
+    font-size: 50px;
+    font-family: 'Shadows Into Light', cursive;
+}
+#sentence{
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+/*Making the bullet point disappear*/
+ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+
+/*Header My Skill*/
+#mySkill{
+    font-size: 70px;
+    font-family: 'Qwitcher Grypen', cursive;
+    color: black;
+    
+}
+
+
+
+/*This is for my language skill section block */
+.row{
+    border-top: double grey;
+    border-bottom: double grey;
+    background-color: beige;
+    width: 50%;
+    margin: 10px auto;
+    border-width: 60px 0;
+    padding: 20px;
+}
+/*For section header name design*/
+#sectionHeaderName{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/*Making the column all in the same row*/
+.column{
+    display: inline-block;
+}
+/*Floating the left column to the left with 35% of */
+.left{
+    
+    float: left;
+    width: 30%;
+}
+/*colum right with the list*/
+.right{
+    width: 60%;
+}
+/*my image for the languages section*/
+.imageSkill{
+    width: 50%;
+}
+/*This is for tryiing to move the right unorder list clost to the left*/
+.skillList{
+    width: 10%;
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.languageList{
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+/*Leadership and Experience section*/
+
+.leaderSection{
+    border-top: double grey 12px;
+    border-bottom: double grey 12px;
+    background-color: beige;
+    width: 50%;
+    margin: 10px auto;
+    border-width: 60px 0;
+    padding: 20px;
+}
+
+.rowL{
+    display: inline-block;
+}
+
+/*The left column for leadership section that has the list*/
+.LeftColumn{
+    width: 60%;
+}
+
+/*The right column is the image for leadership section*/
+.RightColumn{
+    float: right;
+    width: 30%;
+}
+
+/*The data list on leadership section*/
+.firstLine{
+    
+    float: left;
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+/*The image by leadership section*/
+.leaderImg{
+    width: 50%;
+}
+
+/*For designing the leadership bulletpoint*/
+.linkJob{
+    font-size: 30px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+/*skill section*/
+
+
+.skillPart{
+    border-top: double grey 12px;
+    border-bottom: double grey 12px;
+    background-color: beige;
+    width: 50%;
+    margin: 10px auto;
+    border-width: 60px 0;
+    padding: 20px;
+}
+
+
+.skillSection{
+    display: inline-block;
+}
+
+.rightCol{
+    width: 60%;
+}
+
+.leftCol{
+    float: left;
+    width: 30%;
+}
+.skillImg{
+    width: 50%;
+}
+
+.R{
+    float: left;
+    width: 55%;
+    
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+
+
+
+/*This is for the link and hovering over the link and removing the underline*/
+a:link { 
+    text-decoration: none; 
+    background-color: transparent;
+}
+a:visited { 
+    text-decoration: none;
+    color: #94B49F;
+    background-color: transparent;
+ }
+a:hover { 
+    text-decoration: none; 
+    background-color: transparent;
+    color:grey;
+}
+a:active {
+     text-decoration: none;
+     color: red;
+     background-color: transparent;
+}
+
+
+/*THis is for the botton, get in touch, where it can be hover and stuff*/
+a.button:link, a:visited {
+    background-color: white;
+    border: 4px double black;
+    padding: 1px 10px;
+    
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  a.button:hover, a:active {
+    background-color: white;
+    background-color: transparent;
+  }
+
+
+  /*This is for the horizontal border*/
+  hr{
+    border-top: double black 12px; 
+    border-bottom: none;
+    width: 15%;
+    margin: 40px auto;
+    
+  }
+
+
+  /*Bottom div section*/
+.bottom{
+    padding: 1px 0 1px 0;
+    border-top: double grey 12px;
+    border-bottom: double grey 12px;
+    background-color: beige;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 40px;
+}
+
+.muscle{
+    margin: 0 120px 0 0;
+    float: left;
+}
+
+
+
+
+
+/*Designing the contact page. This is the contact page body*/
+.contactBody{
+    background-color: beige;
+}
+
+#contactHr{
+    margin: 40px auto;
+    border-top: dashed black 12px;
+}
+#lastHr{
+    border-top: dashed black 12px; 
+    border-bottom: none;
+    width: 15%;
+    margin: 40px auto;
+}
+
+/*This is the contact section*/
+.contact{
+    width: 50%;
+    margin: 10px auto;
+    border-width: 60px 0;
+    padding: 60px;
+    display: inline-block;
+  
+}
+
+
+/*Moving it left side by floating. This is the left column*/
+.leftSide{
+    margin-left: 35%;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    /*
+    margin-right: 20px;
+    background-color: aquamarine;
+    */
+    
+}
+
+/*This is the right column. Keep the textbox align with the name, email etc*/
+.rightSide{
+   width: 70%;
+}
+
+.superman{
+position:absolute;
+bottom: 200px;
+left: 500px;
+width: 240px;
+}
+
+#contactThein{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 100px;
+    color: grey;
+    
+}
+
+#address{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+#number{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}
+
